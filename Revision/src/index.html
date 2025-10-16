@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="css/diseno.css"/>
+    
+</head>
+<body>
+    <div>
+        <h1 class="titulo">Registro de Usuario</h1>
+
+        <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" class="entrada"/>
+        </div>
+
+        <div class="campo">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" class="entrada"/>
+        </div>
+
+        <div class="campo">
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha" class="entrada"/>
+        </div>
+
+        <div class="campo">
+            <label>Género:</label>
+            <div class="opciones">
+                <label><input type="radio" name="genero" value="masculino"/> Masculino</label>
+                <label><input type="radio" name="genero" value="femenino"/> Femenino</label>
+                <label><input type="radio" name="genero" value="otro"/> Otro</label>
+            </div>
+        </div>
+
+        <div class="campo">
+            <label><input type="checkbox" id="terminos"/> Acepto los términos y condiciones</label>
+        </div>
+
+        <div class="campo">
+            <button id="revisar" class="boton">Revisar</button>
+        </div>
+
+        <div id="mensaje" class="mensaje"></div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+
+.contenedor {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    width: 320px;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.entrada {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+
+
+.boton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+.mensaje {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+.exito {
+    color: green;
+}
